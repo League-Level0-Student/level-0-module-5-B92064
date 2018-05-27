@@ -7,10 +7,23 @@ import java.io.File;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import javax.swing.JOptionPane;
 
 
 public class Code4Life {
-	
+	public static void main(String[] args) {
+		String r = JOptionPane.showInputDialog("How many hours did you code this week?");
+		int intr = Integer.parseInt(r);
+		if(intr <= 2) {
+			JOptionPane.showMessageDialog(null, "Stop watching Youtube and code instead");
+		}
+		if(intr >= 3 && intr <= 5) {
+			JOptionPane.showMessageDialog(null, "You are a Code Ninja");
+		}
+		if(intr > 5) {
+			playBatmanTheme();
+		}
+	}
 	//1.  Ask the user how many hours they spent coding this week.
 	
 	//2.  If it is less than or equal to 2, tell them to stop watching YouTube and write code instead.

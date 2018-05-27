@@ -28,6 +28,20 @@ for(int j = 1; j < 500; j++) {
 		System.out.println(j + "odd");
 	}
 }
+for(int h = 7; h <777; h++) {
+	if(h %7 ==0) {
+		System.out.println(h);
+	}
+}
+for(int g = 0; g < 16; g++) {
+	System.out.println("In 20"+ (04 + g)  +" I was " + g+ " years old.");
+}
+for(int e = 0; e <2; e ++) {
+	System.out.print(e);
+	for(int r = 0; r < 9; r++) {
+		System.out.println(r+e);
+	}
+}
 	}
 
 }

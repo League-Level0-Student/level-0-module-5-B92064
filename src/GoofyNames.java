@@ -23,7 +23,9 @@ for(int i = 0; i < name.length(); i++) {
 	  
 	}
 	else {
-	System.out.println(name.toUpperCase());
+		name.toUpperCase();
+		char r = name.charAt(i);
+	System.out.println(r);
 	}
 		// 3. Loop through each character of the name (steps 4 - 6).
 		//    HINT: Use .length() to determine the number of characters in the String.
